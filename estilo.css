@@ -1,0 +1,330 @@
+/*Arquivo css Le Turismo*/
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#container {
+margin: 40px auto 0px auto;
+width: 1080px;
+background: #ffe7d1;
+}
+
+/*Inicio do cabeçalho */
+#header{
+width: 800px;
+height: 140px;
+margin: 0px auto;/*centraliza*/
+background:#FFFFFF;
+}
+
+#header h1{
+display: block;
+float:left;
+}
+
+#logo{
+background-image: url(logoo.png);
+height: 200px;
+width: 200px;
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+#banner{
+margin-top: 60px;
+padding-top: 30px;
+}
+
+#nav{
+list-style:none; /*retira marcadores*/
+display: block;
+padding-top: 140px;
+padding-left: 250px
+}
+
+#nav li {
+float:left;
+margin-left: 60px;
+padding-bottom: 30px;
+}
+
+#nav a {
+text-decoration: none;
+color:#0066ba;
+font-size: 22px;
+}
+
+#nav a:hover{
+border-bottom: 5px solid #fa7425;
+}
+
+ul#nav a.ativa{
+border-bottom: 5px solid #fa7425;
+}
+
+
+
+/*fim do cabeçalho */
+
+#section{
+width:800px;
+height:400px;
+margin:15px auto;
+padding-left:5px;
+}
+
+.article{
+float: left;
+margin: 30px 15px;
+}
+
+.article p{
+padding-top:5px;
+font-size: 20px;
+text-align: justify;
+}
+
+#footer{
+width: 1080px;
+height: 45px;
+background:#fa7425;
+position: center;
+margin: 0px auto 30px auto;
+padding-top:25px;
+}
+
+#footer p{
+font-size: 16px;
+text-align: center;
+}
+
+.subir {
+background-image: url(https://iili.io/RPSL7V.png);
+bottom: 14px;
+height: 100px;
+position: fixed;
+right: 22px;
+width: 100px;
+}
+
+/*Página Sobre*/
+
+#banner2{
+margin-top: 60px;
+padding-top: 30px;
+width: 1080px;
+height: 470px;
+}
+
+#text{
+width: 1080px;
+height: 600px;
+}
+
+.artigo{
+width: 900px;
+margin-left: 70px;
+position: center;
+}
+
+.artigo p{
+padding-top: 15px;
+font-size: 17px;
+text-align: justify;
+padding-bottom: 5px;
+}
+
+.artigo h1{
+padding-top: 30px;
+font-size: 24px;
+text-align: justify;
+padding-bottom: 0px;
+}
+
+
+
+#footer{
+width: 1080px;
+height: 45px;
+background:#fa7425;
+position: center;
+margin: 0px auto 30px auto;
+padding-top:25px;
+}
+
+#footer p{
+font-size: 16px;
+text-align: center;
+}
+
+/*fim*/
+
+/*Página Produtos*/
+
+h1{
+text-align: center;
+padding-top: 35px;
+}
+
+#product {
+padding-top: 90px; /*margem interna superior*/
+min-height: 1800px; 
+position: center;
+width: 1080px;
+}
+
+.pacotes1 {
+margin-left: 150px;
+padding-top: 45px; /*margem interna superior*/
+padding-bottom: 30px; /*margem interna inferior*/
+float: left;
+}
+
+.pacotes2 {
+margin-right: 150px;
+padding-top: 45px; /*margem interna superior*/
+padding-bottom: 30px; /*margem interna inferior*/
+float: right;
+}
+
+.pacotes3 {
+margin-left: 150px;
+padding-top: 10px; /*margem interna superior*/
+padding-bottom: 30px; /*margem interna inferior*/
+float: left;
+}
+
+.pacotes4 {
+margin-right: 150px;
+padding-top: 10px; /*margem interna superior*/
+padding-bottom: 30px; /*margem interna inferior*/
+float: right;
+}
+
+.pacotes5 {
+margin-left: 150px;
+padding-top: 10px; /*margem interna superior*/
+padding-bottom: 30px; /*margem interna inferior*/
+float: left;
+}
+
+.pacotes6 {
+margin-right: 150px;
+padding-top: 10px; /*margem interna superior*/
+padding-bottom: 30px; /*margem interna inferior*/
+float: right;
+}
+
+.pacotes7 {
+margin-left: 150px;
+padding-top: 10px; /*margem interna superior*/
+padding-bottom: 30px; /*margem interna inferior*/
+float: left;
+}
+
+.pacotes8 {
+margin-right: 150px;
+padding-top: 10px; /*margem interna superior*/
+padding-bottom: 30px; /*margem interna inferior*/
+float: right;
+}
+
+#footer{
+width: 1080px;
+height: 45px;
+background:#fa7425;
+position: center;
+margin: 0px auto 30px auto;
+padding-top:25px;
+}
+
+#footer p{
+font-size: 16px;
+text-align: center;
+}
+
+/*Página Contato*/
+
+h1{
+padding-bottom: 30px;	
+}
+
+#form{
+height: 1000px;
+}
+	
+form{
+padding-top: 90px;
+font-family: 'Arial';
+color: #000000;
+font-size: 15px;
+text-align: center;
+padding-bottom:50px;
+}
+
+textarea {resize: none;
+}
+
+input {margin: 0 10px;
+padding : 0px 10px;
+width: 160px;
+}
+
+#footer{
+width: 1080px;
+height: 45px;
+background:#fa7425;
+position: center;
+margin: 0px auto 30px auto;
+padding-top:25px;
+}
+
+#footer p{
+font-size: 16px;
+text-align: center;
+}
+
+/*Página Enviado*/
+
+.enviado{
+padding-top: 90px;
+padding-bottom: 230px;
+}
+
+.enviado h1{
+text-align: center;
+}
+
+#footer{
+width: 1080px;
+height: 45px;
+background:#fa7425;
+position: center;
+margin: 0px auto 30px auto;
+padding-top:25px;
+}
+
+#footer p{
+font-size: 16px;
+text-align: center;
+}
+
+
+@media screen and (min-width:220px) and (max-width:568px){
+	html
+#footer{ margin-left:0px;}
+}
+@media screen and (min-width:569px) and (max-width:767px){
+	html
+#footer { margin-left:0px;}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+	html
+#footer { margin-left:0px;}
+
+}
